@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f6f2e9">
+    <meta name="description" content="Discover Savannah Restaurant in Westlands, Nairobi — a warm table for bold flavours, good company, and unhurried evenings.">
+    <title>Savannah Restaurant | Westlands, Nairobi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Savannah Restaurant home">
+            <span class="brand-mark" aria-hidden="true">S</span>
+            <span class="brand-name">savannah<span>RESTAURANT</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+            <span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+            <a href="#story">Our story</a>
+            <a href="#menu">The menu</a>
+            <a href="#visit">Find us</a>
+            <a class="nav-cta" href="#reservations">Reserve a table <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-image" role="img" aria-label="A warmly lit restaurant table set for dinner"></div>
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow light-eyebrow"><span></span> WESTLANDS · NAIROBI</p>
+                <h1>A little wild.<br>A lot like <em>home.</em></h1>
+                <p class="hero-copy">Good food, generous pours, and the kind of evenings you wish would last a little longer.</p>
+                <div class="hero-actions">
+                    <a class="button button-gold" href="#reservations">Come on in <span aria-hidden="true">↗</span></a>
+                    <a class="text-link light-link" href="#menu">Explore the menu <span aria-hidden="true">↓</span></a>
+                </div>
+            </div>
+            <div class="hero-note"><span class="note-line"></span> YOUR TABLE IS WAITING</div>
+            <a class="scroll-cue" href="#story" aria-label="Scroll to our story"><span></span></a>
+        </section>
+
+        <section class="intro section-wrap" id="story">
+            <div class="intro-kicker">
+                <span class="eyebrow">A TABLE WITH A STORY</span>
+                <span class="kicker-number">01 / 03</span>
+            </div>
+            <div class="intro-copy">
+                <h2>Rooted in good<br>food. <em>Made for</em><br>good company.</h2>
+                <div class="intro-description">
+                    <span class="short-rule"></span>
+                    <p>Savannah is a place to slow down and settle in. Come for a relaxed lunch, stay for one more round, and make yourself at home in the heart of Westlands.</p>
+                    <a class="text-link dark-link" href="#visit">A seat at our table <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+            <div class="intro-image" role="img" aria-label="Freshly prepared ingredients and a shared meal"></div>
+            <p class="image-caption">A good meal is always better shared.</p>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <div class="section-wrap menu-wrap">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">FROM OUR KITCHEN</span>
+                        <h2>Good food, <em>your way.</em></h2>
+                    </div>
+                    <p>A little something to start, plenty to share, and a sweet finish.</p>
+                </div>
+                <div class="menu-categories">
+                    <section class="menu-category" aria-labelledby="starters-heading">
+                        <div class="category-title">
+                            <span class="menu-index">01</span>
+                            <h3 id="starters-heading">Starters</h3>
+                        </div>
+                        <article class="menu-item">
+                            <div><h4>Beef samosas</h4><p>Crisp pastry parcels filled with spiced minced beef and served with tamarind chutney.</p></div>
+                            <span class="menu-price">KES 550</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Swahili coconut prawns</h4><p>Pan-seared prawns tossed in a fragrant coconut, lime, and pili pili sauce.</p></div>
+                            <span class="menu-price">KES 950</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Masala mogo bites</h4><p>Crispy cassava tossed with chilli, lemon, and a pinch of coastal spice.</p></div>
+                            <span class="menu-price">KES 600</span>
+                        </article>
+                    </section>
+                    <section class="menu-category" aria-labelledby="mains-heading">
+                        <div class="category-title">
+                            <span class="menu-index">02</span>
+                            <h3 id="mains-heading">Main Courses</h3>
+                        </div>
+                        <article class="menu-item">
+                            <div><h4>Nyama choma platter</h4><p>Slow-roasted goat with kachumbari, pili pili, and soft ugali.</p></div>
+                            <span class="menu-price">KES 1,850</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Coconut fish curry</h4><p>Local catch simmered in Swahili coconut curry, served with fragrant rice.</p></div>
+                            <span class="menu-price">KES 1,650</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Grilled kuku &amp; sukuma</h4><p>Herb-marinated chicken with sautéed sukuma wiki and turmeric mash.</p></div>
+                            <span class="menu-price">KES 1,450</span>
+                        </article>
+                    </section>
+                    <section class="menu-category" aria-labelledby="drinks-desserts-heading">
+                        <div class="category-title">
+                            <span class="menu-index">03</span>
+                            <h3 id="drinks-desserts-heading">Drinks &amp; Desserts</h3>
+                        </div>
+                        <article class="menu-item">
+                            <div><h4>Dawa cooler</h4><p>A refreshing Kenyan favourite with honey, lemon, ginger, and crushed ice.</p></div>
+                            <span class="menu-price">KES 500</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Fresh passion &amp; lime</h4><p>Ripe local passion fruit shaken with lime and a touch of sweetness.</p></div>
+                            <span class="menu-price">KES 400</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Cardamom mandazi</h4><p>Warm, pillowy Swahili doughnuts dusted with sugar and served with chai cream.</p></div>
+                            <span class="menu-price">KES 550</span>
+                        </article>
+                        <article class="menu-item">
+                            <div><h4>Mango &amp; coconut kulfi</h4><p>Silky mango and coconut ice cream with a delicate hint of cardamom.</p></div>
+                            <span class="menu-price">KES 650</span>
+                        </article>
+                    </section>
+                </div>
+                <p class="menu-note">Menu and prices are a sample and may vary with seasonal ingredients.</p>
+            </div>
+        </section>
+
+        <section class="reservation-section" id="reservations">
+            <div class="reservation-image" role="img" aria-label="An inviting restaurant dining room at sunset"></div>
+            <div class="reservation-panel">
+                <span class="eyebrow light-eyebrow">MAKE AN EVENING OF IT</span>
+                <h2>Good things<br>happen <em>around</em><br>the table.</h2>
+                <p>Planning a date night, a catch-up, or a little celebration? Tell us when you’re coming.</p>
+                <form class="reservation-form" id="reservation-form">
+                    <label>
+                        Your name
+                        <input type="text" name="name" autocomplete="name" placeholder="How should we address you?" required>
+                    </label>
+                    <label>
+                        Phone number
+                        <input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="e.g. 0712 345 678" aria-describedby="phone-hint" required>
+                        <span class="field-hint" id="phone-hint">We’ll include this number with your booking request.</span>
+                    </label>
+                    <div class="form-row">
+                        <label>
+                            Date
+                            <input type="date" name="date" required>
+                        </label>
+                        <label>
+                            Time
+                            <select name="time" required>
+                                <option value="">Choose a time</option>
+                                <option>6:00 AM</option>
+                                <option>7:00 AM</option>
+                                <option>8:00 AM</option>
+                                <option>9:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>12:00 PM</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="form-row guest-row">
+                        <label>
+                            Number of guests
+                            <select name="guests" required>
+                                <option value="">Choose guests</option>
+                                <option value="2">2 guests</option>
+                                <option value="1">1 guest</option>
+                                <option value="3">3 guests</option>
+                                <option value="4">4 guests</option>
+                                <option value="5">5 guests</option>
+                                <option value="6">6 guests</option>
+                                <option value="7+">7+ guests</option>
+                            </select>
+                        </label>
+                    </div>
+                    <button class="button button-gold reserve-button" type="submit">Book table <span aria-hidden="true">↗</span></button>
+                    <p class="form-note" id="form-note" aria-live="polite">Your request will open in WhatsApp for you to send.</p>
+                </form>
+            </div>
+        </section>
+
+        <section class="visit-section section-wrap" id="visit">
+            <div class="visit-heading">
+                <span class="eyebrow">COME FIND US</span>
+                <h2>Your Westlands<br><em>hideaway.</em></h2>
+            </div>
+            <div class="visit-details">
+                <div class="detail-block">
+                    <span class="detail-label">THE NEIGHBOURHOOD</span>
+                    <p>Westlands<br>Nairobi, Kenya</p>
+                    <a class="text-link dark-link" href="https://www.google.com/maps/search/?api=1&query=Savannah+Restaurant+Westlands+Nairobi" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="detail-block">
+                    <span class="detail-label">OPENING HOURS</span>
+                    <p>Monday–Saturday<br>6:00 AM–12:00 PM<br>Sunday: Closed</p>
+                    <a class="text-link dark-link" href="#reservations">Plan your visit <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="detail-block">
+                    <span class="detail-label">SAY HELLO</span>
+                    <p><a href="tel:+254727622603">+254 727 622 603</a><br><a href="mailto:kibangajohn6@gmail.com">kibangajohn6@gmail.com</a></p>
+                    <a class="text-link dark-link" href="https://wa.me/254727622603" target="_blank" rel="noopener noreferrer">WhatsApp us <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+            <div class="visit-stamp" aria-hidden="true">KARIBU<br><span>NAIROBI</span></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="#home">
+            <span class="brand-mark" aria-hidden="true">S</span>
+            <span class="brand-name">savannah<span>RESTAURANT</span></span>
+        </a>
+        <p>A good meal. A good moment. Westlands, Nairobi.</p>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </footer>
+</body>
+</html>
