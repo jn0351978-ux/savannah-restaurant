@@ -58,7 +58,8 @@ reservationForm.addEventListener('submit', (event) => {
         `Phone: ${formData.get('phone')}`,
         `Date: ${formData.get('date')}`,
         `Time: ${formData.get('time')}`,
-        `Guests: ${formData.get('guests')}`
+        `Guests: ${formData.get('guests')}`,
+        `Seating preference: ${formData.get('seating')}`
     ].join('\n');
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     const whatsappLink = document.createElement('a');

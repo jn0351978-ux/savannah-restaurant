@@ -596,6 +596,103 @@ h2 em {
     background: #34372d;
 }
 
+.seating-fieldset {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.seating-fieldset legend {
+    margin-bottom: 9px;
+    color: #dfc997;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: .08em;
+}
+
+.seating-options {
+    display: grid;
+    gap: 7px;
+}
+
+.seating-option {
+    position: relative;
+    display: block !important;
+    color: var(--paper) !important;
+    cursor: pointer;
+    letter-spacing: 0 !important;
+}
+
+.seating-option input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    min-height: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+.seating-choice {
+    min-height: 55px;
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr) 14px;
+    align-items: center;
+    gap: 11px;
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 253, 248, .2);
+    background: rgba(255, 253, 248, .025);
+    transition: border-color .2s ease, background .2s ease;
+}
+
+.seating-option:hover .seating-choice {
+    border-color: rgba(215, 173, 100, .68);
+}
+
+.seating-option input:checked + .seating-choice {
+    border-color: var(--gold);
+    background: rgba(215, 173, 100, .1);
+}
+
+.seating-option input:focus-visible + .seating-choice {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+}
+
+.seating-icon {
+    color: #e5c38a;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+}
+
+.seating-copy {
+    display: grid;
+    gap: 3px;
+}
+
+.seating-name {
+    font: 500 13px/1.3 var(--serif);
+}
+
+.seating-detail {
+    color: rgba(255, 253, 248, .56);
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.seating-indicator {
+    width: 13px;
+    height: 13px;
+    border: 1px solid rgba(255, 253, 248, .48);
+    border-radius: 50%;
+}
+
+.seating-option input:checked + .seating-choice .seating-indicator {
+    border: 4px solid var(--gold);
+}
+
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
